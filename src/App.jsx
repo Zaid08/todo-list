@@ -110,6 +110,7 @@ function App() {
               <MdDelete className='icon' onClick={()=>handleDeleteTodo(index)} title='delete'/>
               <FaCheck className='check-icon' onClick={()=>handleCompleted(index)} title='check'/>
             </div>
+            
           </div>
             );
           })}
